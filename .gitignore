@@ -1,0 +1,37 @@
+# Participant data never goes in git (keep in UserZoom / restricted Drive)
+research/**/recordings/
+research/**/raw/
+research/**/transcripts/
+research/**/participant-key*
+*.mp4
+*.mov
+*.m4a
+*.wav
+*.vtt
+*.srt
+
+# Office exports (the Drive copies are the originals)
+~$*
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+.next/
+coverage/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
